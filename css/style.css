@@ -95,6 +95,8 @@ p{
 .montreal h2,
 .edmonton h2,
 .calgary h2{
+    margin: 0;
+    margin-bottom: 19px;
     font-size: 16px;
     line-height: 1.5em;
     color: #1f1f56;
@@ -109,10 +111,71 @@ p{
     color: #9999a6;
     font-family: "Arial";
 }
-.montreal{
+.montreal,
+.calgary,
+.edmonton{
     border-collapse: separate;
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 31px;
-    align-items: flex-start;
+}
+.vidstup{
+    margin-bottom: 14px;
+}
+.opis-montrealj{
+    padding-left: 20px;
+}
+.znizhka{
+    background:url(https://raw.githubusercontent.com/kovalj1337/hataplus-email/master/img/fon.png) center/cover no-repeat;
+    height: 195px;
+    text-align: center;
+}
+.znizhka h2{
+    margin: 0;
+    margin: 12px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.znizhka p{
+    font-size: 13px;
+    line-height: 1.5em;
+    color: #ffffff;
+    font-family: "Arial";
+}
+.znizhka button{
+    border: none;
+    background-color: #1f1f56;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    padding: 8.5px 26.5px;
+    margin-top: 16px;
+}
+.spreji a{
+    display: block;
+    position: relative;
+    background: url(https://raw.githubusercontent.com/kovalj1337/hataplus-email/master/img/spreji.png)no-repeat;
+}
+.spreji a::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+a.twiter{
+    width: 17px;
+    height: 13px;
+    background-position: -3px -3px;
+    z-index: 5;
 }
