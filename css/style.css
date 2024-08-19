@@ -13,7 +13,10 @@ p{
     max-width: 602px;
     align-items: center;
 }
-.headerc tr td{
+.header{
+    margin-bottom: 13px;
+}
+.header tr td{
     margin-left: 31px;
     margin-right: 31px;
 }
@@ -31,6 +34,9 @@ p{
     font-weight: bold;
     font-family: "Arial";
 }
+.phone img{
+    margin-right: 8px;
+}
 .kontakts{
     font-size: 13px;
     line-height: 1,3em;
@@ -39,7 +45,6 @@ p{
     font-family: "Arial";
 }
 .promo-integraciya{
-    margin-top: 13px;
     max-width: 600px;
     align-items: center;
 }
@@ -59,8 +64,10 @@ p{
     font-weight: bold;
     font-family: "Arial";
 }
+.info p{
+    margin-bottom: 21px;
+}
 .detaljnishe{
-    margin-top: 21px;
     border: none;
     border-radius: 20px;
     background-color: #fd8300;
@@ -74,18 +81,23 @@ p{
 }
 .perevagy{
     background-color: #ededf5;  
+    margin-bottom: 25px;
 }
 .perevagy-kartochki td{
-    padding: 37px 36px 30px 36px;
+    padding: 37px 20px 30px 20px;
     text-align: center;
 }
 .perevagy-kartochki p{
+    white-space: nowrap;
+    max-height: 31px;
     font-size: 13px;
     line-height: 1.3em;
     color: #666666;
     font-family: "Arial";
 }
 .kozirj{
+    white-space: nowrap;
+    max-height: 13px;
     font-size: 14px;
     line-height: 1.2em;
     color: #24242b;
@@ -110,19 +122,25 @@ p{
     line-height: 1.4em;
     color: #9999a6;
     font-family: "Arial";
+    width: 70vh;
 }
 .montreal,
 .calgary,
 .edmonton{
     border-collapse: separate;
-    margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 31px;
+}
+.montreal img,
+.calgary img,
+.edmonton img{
+    width: 60vw;
 }
 .vidstup{
     margin-bottom: 14px;
 }
 .opis-montrealj{
+    min-height: 50%;
     padding-left: 20px;
 }
 .znizhka{
@@ -144,6 +162,9 @@ p{
     color: #ffffff;
     font-family: "Arial";
 }
+.mb{
+    padding-bottom: 16px;
+}
 .znizhka button{
     border: none;
     background-color: #1f1f56;
@@ -154,28 +175,42 @@ p{
     font-weight: bold;
     font-family: "Arial";
     padding: 8.5px 26.5px;
-    margin-top: 16px;
+}
+.footer{
+    background-color: #08081a;
+}
+.spreji{
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 21px;
 }
 .spreji a{
-    display: block;
-    position: relative;
-    background: url(https://raw.githubusercontent.com/kovalj1337/hataplus-email/master/img/spreji.png)no-repeat;
+    margin-left: 9px;
 }
-.spreji a::before{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #fff;
-    transform: translate(-50%, -50%);
-    z-index: 0;
+.footer p{
+    font-size: 13px;
+    line-height: 1.3em;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+    padding-bottom: 23px;
 }
-a.twiter{
-    width: 17px;
-    height: 13px;
-    background-position: -3px -3px;
-    z-index: 5;
+.footer-bottom{
+    background-color: #000014;   
+    text-align: center;
+    border-collapse: separate;
+    padding-top: 22px;
+    padding-bottom: 21px;
+}
+.footer-bottom a{
+    padding-right: 7px;
+    font-size: 11px;
+    line-height: 1.6em;
+    color: #fd8300;
+    font-family: "Arial";
+    text-decoration: none;
+}
+.border-left{
+    padding-left: 8px;
+    border-left: 1px #fd8300 solid;
 }
